@@ -1,0 +1,32 @@
+p {
+  color: white;
+}
+
+#main-title {
+  letter-spacing: 20px;
+  font-weight: 700;
+}
+
+#job-desc {
+  font-weight: 400;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.vertical-timeline-element-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 60px;
+    height: 60px; */
+  /* border-radius: 50%; */
+}
