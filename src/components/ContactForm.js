@@ -47,11 +47,8 @@ function ContactForm() {
       message === "" ||
       checked === true
     ) {
-      console.log("failure");
       setAlert(true);
-      console.log(alert);
     } else {
-      console.log(checked);
       emailjs.sendForm(serviceID, templateID, e.target, userID).then(
         (result) => {
           setEmailSent(true);
@@ -63,7 +60,7 @@ function ContactForm() {
           });
         },
         (error) => {
-          console.log(error.text);
+          setAlert(true);
         }
       );
     }
@@ -75,7 +72,7 @@ function ContactForm() {
       id="contact"
       style={{
         backgroundImage:
-          "url(" + require("assets/img/logos/benjamin-suter.jpg") + ")",
+          "url(" + require("assets/img/Owen/hero-p-3200.jpeg") + ")",
       }}
     >
       <Container>
@@ -191,7 +188,6 @@ function ContactForm() {
                                 type="checkbox"
                                 onChange={() => {
                                   setChecked(!checked);
-                                  console.log(checked);
                                 }}
                               />
                               I'm not a robot !{" "}
