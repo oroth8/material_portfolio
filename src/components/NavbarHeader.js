@@ -111,14 +111,14 @@ function NavbarHeader() {
                     <i className="nc-icon nc-calendar-60" />
                     Resume
                   </DropdownItem>
-                  <DropdownItem to="/sections#pricing" tag={Link}>
+                  {/* <DropdownItem to="/sections#pricing" tag={Link}>
                     <i className="nc-icon nc-money-coins" />
                     Pricing
                   </DropdownItem>
                   <DropdownItem to="/sections#testimonials" tag={Link}>
                     <i className="nc-icon nc-badge" />
                     Testimonials
-                  </DropdownItem>
+                  </DropdownItem> */}
                   <DropdownItem to="#contact" tag={Link}>
                     <i className="nc-icon nc-mobile" />
                     Contact Me
