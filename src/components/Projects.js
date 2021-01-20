@@ -32,7 +32,7 @@ const Projects = () => {
             <Card className="card-plain">
               <CardImg top tag="div">
                 <a
-                  href="https://github.com/oroth8/estore"
+                  href="https://vast-shore-24517.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
