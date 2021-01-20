@@ -108,7 +108,7 @@ function NavbarHeader() {
                     About Me
                   </DropdownItem>
                   <DropdownItem to="#resume" tag={Link}>
-                    <i className="nc-icon nc-calendar-60" />
+                    <i className="nc-icon nc-paper" />
                     Resume
                   </DropdownItem>
                   {/* <DropdownItem to="/sections#pricing" tag={Link}>
