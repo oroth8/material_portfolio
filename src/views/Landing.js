@@ -9,6 +9,7 @@ import About from "../components/About";
 import VertNav from "../components/VertNav";
 import ContactForm from "../components/ContactForm";
 import Resume from "components/Resume";
+import Reddit from "components/Reddit";
 
 const Landing = () => {
   document.documentElement.classList.remove("nav-open");
@@ -68,6 +69,7 @@ const Landing = () => {
       <Jumbotron />
       <Services />
       <Projects />
+      <Reddit />
       <About />
       <Resume />
       <ContactForm />
